@@ -57,6 +57,6 @@ class LogFileAnalyzer:
 
 # Main Thread
 if __name__ == "__main__":
-    log_analyzer = LogFileAnalyzer(r'C:\Users\shibi\OneDrive\Documents\projects\log\access.log')  # Path
+    log_analyzer = LogFileAnalyzer(r'C:\your_path\access.log')  # Path
     log_analyzer.parse_log()
     log_analyzer.report()
