@@ -12,7 +12,7 @@ ip_addresses = [
 http_methods = ["GET", "POST", "PUT", "DELETE", "HEAD"] # Method Pool
 urls = ["/index.html", "/about.html", "/contact.html", "/products.html", "/services.html"] # File Pool
 status_codes = [200, 404, 500, 301, 403] # Codes
-log_file_path = r'C:\Users\shibi\OneDrive\Documents\projects\log\access.log' # Path
+log_file_path = r'C:\your_path\access.log' # Path
 
 # Functions
 
